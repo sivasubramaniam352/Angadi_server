@@ -1,0 +1,12 @@
+
+POST  http://localhost:8000/api/userReg
+content-type: application/json
+
+{
+    "first_name": "siva",
+    "last_name": "subramaniam",
+    "email": "iron@gmail.com",
+    "password": "tony12345",
+    "mobile": 8888888888,
+    "userType": "admin"
+}
